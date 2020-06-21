@@ -1,3 +1,5 @@
+AOS.init();
+// aos 初始化
 $('#banner').slick({
     autoplay:true,
     autoplaySpeed:1000,

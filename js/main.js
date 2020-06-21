@@ -1,1 +1,2 @@
 $('#banner').slick();
+$('#brand').slick();

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 微軟正黑體;
+}
+
+nav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 50% 15% 15%;
+      grid-template-columns: 20% 50% 15% 15%;
+  padding: 30px 5px;
+}
+
+nav #logo {
+  color: #252525;
+  font-size: 26px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #252525;
+}
+/*# sourceMappingURL=style.css.map */

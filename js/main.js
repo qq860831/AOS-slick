@@ -2,7 +2,7 @@ $('#banner').slick({
     autoplay:true,
     autoplaySpeed:1000,
     arrows:false
-    // 箭頭去掉
+    // 預設箭頭去掉
 
 });
 $('#brand').slick({

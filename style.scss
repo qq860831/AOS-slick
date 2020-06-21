@@ -1,4 +1,5 @@
 $color-black:#252525;
+$color-black-33:#00000033;
 
 *{
   margin: 0;
@@ -6,10 +7,20 @@ $color-black:#252525;
   box-sizing: border-box;  
   font-family: 微軟正黑體;
 }
+body{
+    background: url(./img/WM_IndoorWood-44_1024.png);
+    background-size: 100px;
+}
 nav{
     display: grid;
     grid-template-columns: 20% 50% 15% 15%;
     padding: 30px 5px;
+    align-items: baseline;
+    position: fixed;
+    z-index: 1;
+    background: #ffffff88;
+    width: 100vw;
+    border-bottom: 1px solid $color-black-33;
 
 
     #logo{
@@ -19,6 +30,13 @@ nav{
 
     a{
         text-decoration: none;
+        font-size: 20px;
         color: $color-black;
+    }
+}
+#banner{
+    img{
+        height: 100vh;
+        object-fit:cover;
     }
 }

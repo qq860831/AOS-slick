@@ -7,12 +7,25 @@
   font-family: 微軟正黑體;
 }
 
+body {
+  background: url(./img/WM_IndoorWood-44_1024.png);
+  background-size: 100px;
+}
+
 nav {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 20% 50% 15% 15%;
       grid-template-columns: 20% 50% 15% 15%;
   padding: 30px 5px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  position: fixed;
+  z-index: 1;
+  background: #ffffff88;
+  width: 100vw;
+  border-bottom: 1px solid #00000033;
 }
 
 nav #logo {
@@ -22,6 +35,13 @@ nav #logo {
 
 nav a {
   text-decoration: none;
+  font-size: 20px;
   color: #252525;
+}
+
+#banner img {
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=style.css.map */
